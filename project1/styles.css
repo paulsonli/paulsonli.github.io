@@ -1,0 +1,241 @@
+body {
+  font-size: 17px;
+}
+
+#logo {
+  width: 7%;
+}
+
+#iceland {
+  width: 5%;
+  float: right;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header p {
+  padding-left: 5%;
+}
+
+.preview {
+  border: solid black 2px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  height: 1000px;
+
+  color: white;
+  background-color: gray;
+}
+
+#thingstodo {
+  padding-left: 5%;
+}
+
+.previewBlock {
+  width: 100%;
+  height: 49%;
+  margin: auto;
+}
+
+.previewPic {
+  width: 100%;
+}
+
+.iceland3 {
+  width: 30%;
+  padding-left: 5%;
+  float: left;
+}
+
+.ice3 p {
+  float: right;
+  margin:auto;
+  width: 35%;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+
+.iceland1 {
+  width: 30%;
+  padding-right: 5%;
+  float: right;
+}
+
+.ice1 p {
+  margin: auto;
+  float: left;
+  width: 35%;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 7%;
+}
+
+.upcoming {
+  margin-top: 3%;
+  padding-left: 5%;
+}
+
+.newsfeed h3 {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.newsfeed p {
+  margin-top: 0;
+  padding-left: 5%;
+}
+
+.contact {
+  height: 270px;
+}
+
+.contactPic {
+  width: 3%;
+  vertical-align: middle;
+  padding-right: 1%;
+}
+
+.contact2 {
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+.botNav {
+  height: 40px;
+}
+
+.navDiv{
+  font-size: 20px;
+  width: 35%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contactPills {
+  list-style-type: none;
+  float: left;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-right: solid 1px;
+}
+
+.contactUs {
+  list-style-type: none;
+  float: left;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.name {
+  text-align: center;
+}
+
+.hikingBody{
+  height: 900px;
+}
+
+
+/* nothernlights html */
+
+.banner {
+  text-align: center;
+}
+
+.box {
+  font-size: 20px;
+  width: 95%;
+  /* border: solid red 1px; */
+  height: 390px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+
+}
+
+.pic {
+  width: 100%;
+}
+
+.pic img {
+  width: 30%;
+  border: solid black 1px;
+  float: left;
+}
+
+
+
+.picInfo {
+  /* margin: 0 auto; */
+  border: solid black 1px;
+  width: 27%;
+  padding-left: 2%;
+  padding: 5% 3% 5% 3%;
+  background-color: #fdebe6;
+  float: left;
+}
+
+.innerBox {
+  width: 107%;
+}
+
+.box span {
+  font-style: italic;
+}
+
+
+/* contact page */
+
+.contactUsDiv {
+  position: relative;
+}
+
+.submitText {
+  font-size: 20px;
+  text-align: center;
+}
+
+.formDiv {
+  transform: translateY(50%);
+  margin: 0 auto;
+  text-align: center;
+  border: solid black 1px;
+  width: 25%;
+  padding-bottom: 1%;
+  background-color: white;
+
+}
+
+.contactUsBody {
+  height: 100%;
+}
+
+.bgi {
+  width: 100%;
+  height: 100%;
+}
+
+.bgi img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  background-size: cover;
+
+}
+
+.stickBot {
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
