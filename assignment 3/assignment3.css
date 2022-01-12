@@ -1,0 +1,105 @@
+.mainStage{
+  width: 70%;
+  height: 571px;
+  margin: auto;
+  position: absolute;
+  top: 16%;
+  right: 16%;
+}
+
+.clockRotation{
+}
+
+.clockImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hour{
+  width: 30%;
+  height: 10%;
+  left: 50%;
+  top: 45%;
+  position: absolute;
+  transform-origin: bottom;
+  animation: hourHand 10s;
+  transform-origin: left;
+}
+
+.minute{
+  width: 10%;
+  height: 45%;
+  left: 45%;
+  top: 5%;
+  position: absolute;
+  animation: minHand 10s;
+  transform-origin: bottom;
+
+}
+
+@keyframes hourHand {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes minHand {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.background{
+  background-image: url(bigben.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 85%;
+  height: 800px;
+  position: relative;
+}
+
+
+
+
+/* overlap image */
+
+.imgDiv{
+  margin-top: 30%;
+  height: 600px;
+  border: 2px solid red;
+  position: relative;
+}
+
+.imgDiv img{
+  width: 100%;
+  height: 100%;
+}
+
+.imgSubDiv{
+  background-color: gray;
+  border: 2px solid blue;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  color: white;
+  opacity: 80%;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.imgSubDiv > *{ /*add margin to all direct children of imgSubDiv*/
+  margin: 2%;
+}
