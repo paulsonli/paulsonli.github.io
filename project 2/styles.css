@@ -1,0 +1,511 @@
+body{
+  background-color: 	#ffffcc;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* banner */
+
+.header{
+  display: flex;
+  height: 250px;
+  padding-bottom: 2%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo{
+  width: 13%;
+  margin-left: 2%;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  border: 2px solid #838511;
+  border-radius: 20px;
+  animation: logo 10s infinite;
+}
+
+.banner{
+  margin-left: 10%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+
+.storeName{
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.storeName h1{
+  font-family: cursive;
+  color: #838511;
+  text-align: center;
+  animation: banner1 10s infinite;
+}
+
+.slogan{
+  height: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.slogan h2{
+  animation: banner2 10s infinite;
+}
+
+@keyframes logo{
+  0% {width: 0}
+
+  50% {width: 100%}
+
+  100% {width: 0}
+}
+
+@keyframes banner1 {
+  0% {margin-top: -50%}
+
+  20% {margin-top: 50%}
+
+  40% {margin-top: -10%}
+
+  50% {margin-top: 0}
+
+  90% {margin-top: 0}
+
+  100% {margin-top: 100%}
+}
+
+@keyframes banner2 {
+  0% {margin-bottom: -50%}
+
+  20% {margin-bottom: 50%}
+
+  40% {margin-bottom: -10%}
+
+  50% {margin-bottom: 0}
+
+  90% {margin-bottom: 0}
+
+  100% {margin-bottom: 100%}
+}
+
+
+/* slideshow */
+  /* slide1 */
+
+.stage{
+  height: 63px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides{
+  width: 300%;
+  height: 100%;
+  animation: slideshow 20s infinite;
+}
+
+.slides div{
+  float: left;
+}
+
+.slide1{
+  background-color: #e0cc64;
+  font-size: 20px;
+  width: 33.33%;
+}
+
+.slide1text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide1 span{
+  font-weight: bold;
+}
+
+.slide1 p{
+  padding-right: 1%;
+}
+
+.discount{
+  font-style: italic;
+}
+
+    /* slide 2 */
+
+.slide2{
+  background-color: #818002;
+  font-size: 20px;
+  color: white;
+  width: 33.33%;
+}
+
+.slide2text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide2 span{
+  font-weight: bold;
+}
+
+.slide2 p{
+  padding-right: 1%;
+}
+    /* slide 3 */
+
+.slide3{
+  background-color: #3e3b0f;
+  font-size: 20px;
+  color: white;
+  width: 33.33%;
+}
+
+.slide3text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.slide3 span{
+  font-weight: bold;
+}
+
+.slide3 p{
+  padding-right: 1%;
+}
+
+@keyframes slideshow {
+  0% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+
+  75% {margin-left: -100%;}
+
+  100% {margin-left: 0;}
+}
+
+/* big flower picture */
+
+.bigFlowerDiv{
+  background-image: url("images/intro_img2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1100px;
+  position: relative;
+  overflow: auto;
+}
+
+.bigFlowerText{
+  width: 30%;
+  background-color: #b8b4b4;
+  border: 4px solid white;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  padding: 1%;
+  font-size: 25px;
+
+}
+
+/* double box */
+
+.doubleBoxDiv{
+  margin: auto;
+  margin-top: 3%;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box1{
+  background-image: url("images/intro_img1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 550px;
+  position: relative;
+}
+
+.box1Text{
+  color: white;
+  width: 50%;
+  border: 2px solid yellow;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  padding: 5%;
+  font-size: 25px;
+}
+
+.box2{
+  color: #89975c;
+  background-image: linear-gradient(15deg, #f4dce4, #dce4b4);
+  width: 40%;
+  height: 550px;
+  font-size: 25px;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.box2 p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.box2Title{
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+
+/* lotion */
+
+.itemHead{
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.lotionList{
+  margin-top: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.lotions{
+  width: 32.5%;
+  display: inline-block;
+}
+
+.lotionImg{
+  width: 100%;
+  height: 30%;
+}
+
+.lotionImg img{
+  width: 100%;
+}
+
+.lotionDescrption{
+  text-align: center;
+  overflow: wrap;
+}
+
+.lotionNames{
+  color: #919252;
+}
+
+.add2Bag{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 2%;
+}
+
+.add2Bag:hover{
+  background-color: gray;
+}
+
+/* modal */
+
+.bagWindow{
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  pointer-events: none;
+}
+
+.bagWindow:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.infoBox{
+  width: 35%;
+  background-color: white;
+  position: relative;
+  top: 15%;
+  left: 30%;
+}
+
+.inBag{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.closeWin a{
+  border-radius: 100px;
+  border: 2px solid white;
+  text-align: center;
+  background-color: gray;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  padding: 1%;
+  box-shadow: 0px 0px 15px 0px gray;
+  text-decoration: none;
+  color: white;
+
+}
+
+.infoBox hr{
+  height: 2px;
+  background: gray;
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.infoBoxGuts{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  flex-flow: row wrap;
+
+}
+
+.infoBoxImg{
+  width: 40%;
+}
+
+.infoBoxImg img{
+  width: 100%;
+}
+
+.infoBoxDescription{
+  overflow: wrap;
+}
+
+.footer{
+  background-color: #d8d4d4;
+  padding-bottom: 5%;
+}
+
+.footerText{
+  padding-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer hr{
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+.continueShop{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 2%;
+  margin-left: 5%;
+}
+
+.empty{
+  width: 100%;
+  height: 50px;
+}
+
+
+/* footer */
+
+.mainFooter{
+  background-color: #232323;
+}
+
+.mainFooter hr{
+  background-color: red;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footerList{
+  text-align: center;
+}
+
+.footerList li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footerList a{
+  color: white;
+  text-decoration: none;
+}
+
+.footerList span{
+  font-weight: bold;
+}
+
+.contact{
+  margin-right: 3%;
+  width: 25%;
+  margin-left: auto;
+  text-align: center;
+}
+
+.connect{
+  width: 100%;
+  display: flex;
+}
+
+.connect span{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.socials img{
+  width: 10%;
+}
+
+.socials img:hover{
+  width: 15%;
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
+
+.copyright{
+  padding-bottom: 1%;
+}
+
+.copyright span{
+  font-weight: bold;
+  padding-right: .5%;
+}
