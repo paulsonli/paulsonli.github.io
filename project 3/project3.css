@@ -1,0 +1,133 @@
+body{
+    background-color: #b8ecec;
+}
+
+.header{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.header h1{
+    text-shadow: 0px 0px #cfcfc4, 1px 1px #cfcfc4, 2px 2px #cfcfc4, 3px 3px #cfcfc4, 4px 4px #cfcfc4, 5px 5px #cfcfc4;
+}
+
+/* game */
+
+.contents{
+    background-color: white;
+    margin: auto;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 2%;;
+}
+
+/* scoreboard */
+
+
+.scoreboard{
+    background-color: #ffbcbc;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.resetButton{
+    border: none;
+    background-color: #ffbcbc;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 1%;
+    padding: 1%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.resetButton:hover{
+    background-color: #FFCDCD;
+}
+
+/* game */
+
+.gameContainer{
+    margin: auto;
+    margin-top: 2%;
+    background-color: #c8ac94;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px gray;
+    text-align: center;
+}
+
+.images{
+    margin: auto;
+    width: 20%;
+}
+
+.images img{
+    width: 100%;
+}
+
+.inputDiv{
+    text-align: center;
+}
+
+.inputDiv input{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.checkButton{
+    border: none;
+    background-color: #78dc74;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1%;
+    height: 50%;
+    margin-top: 2%;
+}
+
+.checkButton:hover{
+    background-color: #9DE49A;
+}
+
+.infoDisplay{
+    font-weight: normal;
+    margin-top: 2%;
+    color: white;
+    padding-bottom: 1%;
+}
+
+/* guess history */
+
+.history{
+    margin: auto;
+    margin-top: 2%;
+    background-color: #b8ecec;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+/* loser screen */
+.loseContainer h2{
+    font-weight: bold;
+    color: #45453f;
+}
+
+.loseContainer p{
+    font-weight: normal;
+    color: #6f6054;
+}
+
+.secretNumberIs{
+    font-weight: bold;
+}
+
+.winContainer{
+    background-color: #d0e4c4;
+}
+
+.winContainer p{
+    font-weight: normal;
+}
