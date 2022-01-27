@@ -78,7 +78,7 @@ IN ('Chinese' , 'English', 'Korean', 'German') --NOT IN
 SELECT * FROM movies 
 WHERE release_date > '2000-01-01'
 
-
+--assignment part 1
 SELECT movie_name, release_date FROM movies
 
 SELECT first_name, last_name FROM directors
